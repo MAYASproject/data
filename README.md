@@ -12,6 +12,7 @@ For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy
 
 this is the code to see the signals:
 
+```
 import numpy as np
 import matplotlib.pyplot as plt
 PCC=np.load('1_Act_134.0_S1.npy')
@@ -25,6 +26,7 @@ plt.subplot(2,1,2)
 plt.plot(BCC[0:1500])
 
 plt.show()
+```
 
 
 If you want to use the data, please cite
