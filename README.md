@@ -2,7 +2,7 @@
 PCG, BCG raw data. 
 The files contain the signals of phonocardiogram, ballistocardiogram, in numpy format.
 
-Use the file called BCG_PCG.zip please search for this file in the repository
+Use the file called **BCG_PCG.zip** please search for this file in the repository
 unzip in your system.
 
 For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
