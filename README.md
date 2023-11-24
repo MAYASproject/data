@@ -6,8 +6,8 @@ Use the file called BCG_PCG.zip please search for this file in the repository
 unzip in your system.
 
 For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
- 1_Act_134.0_S1.npy contains the PCG
-1_Act_134.0_S2.npy contains the BCG
+- 1_Act_134.0_S1.npy contains the PCG
+- 1_Act_134.0_S2.npy contains the BCG
 134 is the pressure
 
 this is the code to see the signals:
