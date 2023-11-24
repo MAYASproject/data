@@ -8,7 +8,13 @@ unzip in your system.
 For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
 - 1_Act_134.0_S1.npy contains the PCG
 - 1_Act_134.0_S2.npy contains the BCG
-134 is the pressure
+
+  
+134 is the pressure of the first person in activity
+
+-Act activity
+-Post post activity
+-Rest rest
 
 this is the code to see the signals:
 
