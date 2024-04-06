@@ -23,10 +23,11 @@ For example of use for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.np
 -------------------------------------
 -->
 Download the BCG_PCG.zip file: This file contains raw data for both phonocardiogram (PCG) and ballistocardiogram (BCG) signals stored in NumPy format. You can find the **BCG_PCG.zip file** in the  repository.
-Unzip the file: Once downloaded, unzip the BCG_PCG.zip file on your system. This will extract the individual signal files.
+Unzip the file: Once downloaded, unzip the BCG_PCG.zip file on your system. This will extract the individual signal files.  
+  
 Understanding the Signal Files:
-
-The extracted files will follow a naming convention that indicates the type of signal (S1:PCG or S2:BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example example). 
+  
+The extracted files will follow a naming convention that indicates the type of signal (S1:PCG or S2:BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example).   
 Here's a breakdown:  
   
 Filename format: [ID]_Act/Post/Rest_[Pressure]_PCG/BCG.npy  
