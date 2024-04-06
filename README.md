@@ -30,7 +30,7 @@ Understanding the Signal Files:
 The extracted files will follow a naming convention that indicates the type of signal (S1:PCG or S2:BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example).   
 Here's a breakdown:  
   
-Filename format: [ID]_Act/Post/Rest_[Pressure]_PCG/BCG.npy  
+Filename format: [ID]_Act/Post/Rest_[Pressure]_S1/S2.npy  
 ID: This is a reference number specific to the data collection.  
 Act/Post/Rest: This indicates the activity state of the subject during the recording: Act (active), Post (post-activity), or Rest (resting).  
 Pressure: This represents the pressure applied during the recording (e.g., 134 is average blood pressure).  
