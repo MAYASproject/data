@@ -26,18 +26,21 @@ Download the BCG_PCG.zip file: This file contains raw data for both phonocardiog
 Unzip the file: Once downloaded, unzip the BCG_PCG.zip file on your system. This will extract the individual signal files.
 Understanding the Signal Files:
 
-The extracted files will follow a naming convention that indicates the type of signal (PCG or BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example example). Here's a breakdown:
-
-Filename format: [ID]_Act/Post/Rest_[Pressure].npy
-ID: This could be a participant identifier or another reference number specific to the data collection.
-Act/Post/Rest: This indicates the activity state of the subject during the recording: Act (active), Post (post-activity), or Rest (resting).
-Pressure: This represents the pressure applied during the recording (e.g., 134 could be blood pressure or another relevant pressure measurement).
-.npy: This extension signifies that the file stores the data in the NumPy format, commonly used for scientific computing in Python.
-Example:
-
-1_Act_134.0_S1.npy: This file contains the PCG signal (S1 likely refers to the first heart sound) recorded from participant 1 during an active state with a pressure of 134.
-1_Act_134.0_S2.npy: This file likely contains the BCG signal from the same participant, recorded under the same conditions.
-Note:
+The extracted files will follow a naming convention that indicates the type of signal (PCG or BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example example). 
+Here's a breakdown:  
+  
+Filename format: [ID]_Act/Post/Rest_[Pressure].npy  
+ID: This could be a participant identifier or another reference number specific to the data collection.  
+Act/Post/Rest: This indicates the activity state of the subject during the recording: Act (active), Post (post-activity), or Rest (resting).  
+Pressure: This represents the pressure applied during the recording (e.g., 134 could be blood pressure or another relevant pressure measurement).  
+.npy: This extension signifies that the file stores the data in the NumPy format, commonly used for scientific computing in Python.  
+  
+Example:  
+  
+1_Act_134.0_S1.npy: This file contains the PCG signal (S1 likely refers to the first heart sound) recorded from participant 1 during an active state with a pressure of 134.  
+1_Act_134.0_S2.npy: This file likely contains the BCG signal from the same participant, recorded under the same conditions.  
+  
+Note:  
 
 Note that "S1" contains the PCG  and "S2" contains the BCG. Consult the data documentation [1] about adquisition details .
 
