@@ -1,11 +1,16 @@
-# data
+# BCG data base, PCG database
+<!---  a database of BCG and PCG signals             -->
+<!---  bcg biomedical signal database             -->
+<!---  fcg biomedical signal database             
+<!---
 PCG, BCG raw data. 
 The files contain the signals of phonocardiogram, ballistocardiogram, in numpy format.
+Details of the adquisition in [1].
 
-Use the file called **BCG_PCG.zip** please search for this file in the repository
-unzip in your system.
-
-For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
+The signal are stored in **BCG_PCG.zip** file containing raw phonocardiogram (PCG) and ballistocardiogram (BCG) signals in NumPy format 
+please search for file **BCG_PCG.zip** in the repository
+unzip in your system. 
+For example of use for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
 - 1_Act_134.0_S1.npy contains the PCG
 - 1_Act_134.0_S2.npy contains the BCG
 
@@ -15,8 +20,30 @@ For example for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy
 -Act activity
 -Post post activity
 -Rest rest
+-------------------------------------
+-->
+Download the BCG_PCG.zip file: This file contains raw data for both phonocardiogram (PCG) and ballistocardiogram (BCG) signals stored in NumPy format. You can find the **BCG_PCG.zip file*** in the  repository.
+Unzip the file: Once downloaded, unzip the BCG_PCG.zip file on your system. This will extract the individual signal files.
+Understanding the Signal Files:
 
-this is the code to see the signals:
+The extracted files will follow a naming convention that indicates the type of signal (PCG or BCG), activity state (Act, Post, Rest), and pressure level (e.g., 134 in the following example example). Here's a breakdown:
+
+Filename format: [ID]_Act/Post/Rest_[Pressure].npy
+ID: This could be a participant identifier or another reference number specific to the data collection.
+Act/Post/Rest: This indicates the activity state of the subject during the recording: Act (active), Post (post-activity), or Rest (resting).
+Pressure: This represents the pressure applied during the recording (e.g., 134 could be blood pressure or another relevant pressure measurement).
+.npy: This extension signifies that the file stores the data in the NumPy format, commonly used for scientific computing in Python.
+Example:
+
+1_Act_134.0_S1.npy: This file contains the PCG signal (S1 likely refers to the first heart sound) recorded from participant 1 during an active state with a pressure of 134.
+1_Act_134.0_S2.npy: This file likely contains the BCG signal from the same participant, recorded under the same conditions.
+Note:
+
+Note that "S1" contains the PCG  and "S2" contains the BCG. Consult the data documentation [1] about adquisition details .
+
+
+
+this is example code in python to see the signals:
 
 ```
 import numpy as np
@@ -37,7 +64,7 @@ plt.show()
 
 If you want to use the data, please cite
 
-RafaelGonzalez‑Landaeta, Brenda Ramirez & Jose Mejia. Estimation of systolic blood pressure by Random Forest using heart sounds and a ballistocardiogram. Scientifc Reports, (2022) 
+[1] RafaelGonzalez‑Landaeta, Brenda Ramirez & Jose Mejia. Estimation of systolic blood pressure by Random Forest using heart sounds and a ballistocardiogram. Scientifc Reports, (2022) 
 
 Rafael Gonzalez‑Landaeta & Jose Mejia, "M.A.Y.A.S Project: Creation of a database of physiological signals. Estimation of changes in blood pressure.", UACJ Institutional Repository, 2022
 
