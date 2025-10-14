@@ -1,4 +1,4 @@
-# BCG data base, PCG database
+# BCG, PCG , EEG, and EMG database
 <!---  a database of BCG and PCG signals             -->
 <!---  bcg biomedical signal database             -->
 <!---  fcg biomedical signal database             
