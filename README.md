@@ -76,3 +76,42 @@ If you want to use the data, please cite
   
 Data Disclaimer  
 This database provides access to a collection of data for research and analysis purposes. The authors make no warranties or representations of any kind, express or implied, about the accuracy, completeness, or fitness for any particular purpose of the data.
+-----------------------------------
+
+# EMG Envelope-Type Signals
+
+Measurements were taken using the **"EMG Raw Signal Collection Kit"** electrical muscle sensor module. The acquired signal was of the **envelope type**, not the raw signal (see Figure 1).
+
+![EMG Envelope Signal Example](images/figure1.png)  
+*Figure 1: Example of an EMG envelope signal.*
+
+## Electrode Placement
+
+For sEMG signal recording, three electrodes per channel were used (in this case, only one channel was necessary, so three electrodes were employed in total):  
+- Two **active electrodes**, placed over the muscle belly.  
+- One **reference electrode**, positioned below the two active electrodes.
+
+This configuration helps obtain a cleaner signal compared to random electrode placement over the muscle and a reference electrode placed in an irrelevant anatomical region.
+
+The inter-electrode distance was set to **20 millimeters**, and the electrodes were aligned **parallel to the muscle fibers** to optimize signal acquisition. Surface foam monitoring electrodes from **3M with conductive gel** were used for this purpose.
+
+The following muscle locations were selected for signal acquisition:
+- **Extensor digitorum**
+- **Palmaris longus**
+- **Flexor digitorum profundus**
+- **Biceps brachii**
+
+Among these, the **extensor digitorum** and **palmaris longus** muscles were the most consistently active during measurements.
+
+![Electrode Placement Example](images/figure2.png)  
+*Figure 2: Example of electrode placement used for signal acquisition across volunteers, primarily over the extensor digitorum and palmaris longus muscles.*
+
+If you want to use the data, please cite
+
+[1] RafaelGonzalez‑Landaeta, Brenda Ramirez & Jose Mejia. Estimation of systolic blood pressure by Random Forest using heart sounds and a ballistocardiogram. Scientifc Reports, (2022) 
+
+[2] Rafael Gonzalez‑Landaeta & Jose Mejia, "M.A.Y.A.S Project: Creation of a database of physiological signals. Estimation of changes in blood pressure.", UACJ Institutional Repository, 2022
+  
+  
+Data Disclaimer  
+This database provides access to a collection of data for research and analysis purposes. The authors make no warranties or representations of any kind, express or implied, about the accuracy, completeness, or fitness for any particular purpose of the data.
