@@ -82,7 +82,7 @@ This database provides access to a collection of data for research and analysis 
 
 Measurements were taken using the **"EMG Raw Signal Collection Kit"** electrical muscle sensor module. The acquired signal was of the **envelope type**, not the raw signal (see Figure 1).
 
-![EMG Envelope Signal Example](images/figure1.png)  
+![EMG Envelope Signal Example](images/emg2.png)  
 *Figure 1: Example of an EMG envelope signal.*
 
 ## Electrode Placement
@@ -103,7 +103,7 @@ The following muscle locations were selected for signal acquisition:
 
 Among these, the **extensor digitorum** and **palmaris longus** muscles were the most consistently active during measurements.
 
-![Electrode Placement Example](images/figure2.png)  
+![Electrode Placement Example](images/emg1.png)  
 *Figure 2: Example of electrode placement used for signal acquisition across volunteers, primarily over the extensor digitorum and palmaris longus muscles.*
 
 If you want to use the data, please cite
