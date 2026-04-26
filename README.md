@@ -106,6 +106,18 @@ Among these, the **extensor digitorum** and **palmaris longus** muscles were the
 ![Electrode Placement Example](images/emg1.png)  
 *Figure 2: Example of electrode placement used for signal acquisition across volunteers, primarily over the extensor digitorum and palmaris longus muscles.*
 
+The file name  NN_PP_GG.csv
+NN session number
+PP code asigned to a specific person
+GG grip type:
+
+Grip Codes:
+Cylindrical grip  _AC
+Spherical grip    _AE
+Pressure Grip     _AP
+Hook Grip         _AG
+
+
 If you want to use the data, please cite
 
 [1] RafaelGonzalez‑Landaeta, Brenda Ramirez & Jose Mejia. Estimation of systolic blood pressure by Random Forest using heart sounds and a ballistocardiogram. Scientifc Reports, (2022) 
