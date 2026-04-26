@@ -106,16 +106,16 @@ Among these, the **extensor digitorum** and **palmaris longus** muscles were the
 ![Electrode Placement Example](images/emg1.png)  
 *Figure 2: Example of electrode placement used for signal acquisition across volunteers, primarily over the extensor digitorum and palmaris longus muscles.*
 
-The file name  NN_PP_GG.csv
-NN session number
-PP code asigned to a specific person
-GG grip type:
+The file name  NN_PP_GG.csv <br>
+NN session number<br>
+PP code asigned to a specific person<br>
+GG grip type:<br><br>
 
-Grip Codes:
-Cylindrical grip  _AC
-Spherical grip    _AE
-Pressure Grip     _AP
-Hook Grip         _AG
+Grip Codes:<br>
+Cylindrical grip  _AC<br>
+Spherical grip    _AE<br>
+Pressure Grip     _AP<br>
+Hook Grip         _AG<br>
 
 
 If you want to use the data, please cite
