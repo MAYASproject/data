@@ -123,6 +123,7 @@ This database provides access to a collection of data for research and analysis 
 ## Wearable Mics PCG Data
 
 Phonocardiogram (PCG) signals recorded using multiple wearable microphones and sensors under different physiological conditions.
+The data files are available in the [/data/Mics_Wearable_PCG_Data/](./data/Mics_Wearable_PCG_Data/) folder.
 
 ### 👥 Participant Demographics
 PCG signals were acquired from **10 healthy volunteers** (4 females, 6 males) with varying body constitutions:
