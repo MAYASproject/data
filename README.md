@@ -114,3 +114,45 @@ If you want to use the data, please cite
   
 Data Disclaimer  
 This database provides access to a collection of data for research and analysis purposes. The authors make no warranties or representations of any kind, express or implied, about the accuracy, completeness, or fitness for any particular purpose of the data.
+
+
+<br>
+<br>
+---
+
+## Wearable Mics PCG Data
+
+Phonocardiogram (PCG) signals recorded using multiple wearable microphones and sensors under different physiological conditions.
+
+### 👥 Participant Demographics
+PCG signals were acquired from **10 healthy volunteers** (4 females, 6 males) with varying body constitutions:
+* **Age:** $23 \pm 1$ years
+* **Height:** $169.9 \pm 10.2\text{ cm}$
+* **Weight:** $73 \pm 17\text{ kg}$
+
+---
+
+### 🫀 Acquisition Protocol & Location
+* **Auscultation Site:** Second left intercostal space (pulmonic area), identified prior to recording using a Littmann mechanical stethoscope.
+* **Duration:** 30 seconds per trial.
+* **Experimental Conditions:**
+  1. **Rest:** Recorded after a 5-minute resting period.
+  2. **Post-Exercise:** Recorded immediately after 2 minutes of physical activity (repeated squats).
+
+---
+
+### ⚙️ Hardware & Instrumentation
+* **Sensors & Housing:**
+  * **Electret, MEMS microphones, & PVDF film sensor:** Housed in custom 3D-printed acoustic chambers coupled to a stethoscope diaphragm (designed in SolidWorks, fabricated in PLA via additive manufacturing).
+  * **Accelerometer & Contact microphone:** Secured directly to the chest using an elastic band to ensure stable mechanical contact.
+* **Data Acquisition (DAQ):** National Instruments NI USB-6353 (16-bit) configured at a sampling rate of **1 kSa/s**.
+
+---
+
+### 📋 Ethics & Approval
+* **Ethics Committee:** Approved by the Research Ethics Committee of the Autonomous University of Ciudad Juárez (UACJ) under approval number **CEI-2025-2-1658**.
+* **Compliance:** Conducted in accordance with the Declaration of Helsinki. Written informed consent was obtained from all participants prior to data collection.
+
+
+
+
