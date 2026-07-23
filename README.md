@@ -1,29 +1,16 @@
-# BCG, PCG , EEG, and EMG database
-<!---  a database of BCG and PCG signals             -->
-<!---  bcg biomedical signal database             -->
-<!---  fcg biomedical signal database             
-<!---
-PCG, BCG raw data. 
-The files contain the signals of phonocardiogram, ballistocardiogram, in numpy format.
-Details of the adquisition in [1].
+# Biomedical Signal Repository
 
-The signal are stored in **BCG_PCG.zip** file containing raw phonocardiogram (PCG) and ballistocardiogram (BCG) signals in NumPy format 
-please search for file **BCG_PCG.zip** in the repository
-unzip in your system. 
-For example of use for the files called 1_Act_134.0_S1.npy and 1_Act_134.0_S1.npy 
-- 1_Act_134.0_S1.npy contains the PCG
-- 1_Act_134.0_S2.npy contains the BCG
+- 1) [Simultaneous BCG, PCG, EEG, and EMG Signal Study Database](#bcg-pcg-eeg-and-emg-database)
+- 2) [EMG Database](#emg-envelope-type-signals)
+- 3) [Wearable Mics PCG Data Database](#wearable-mics-pcg-data)
 
-  
-134 is the pressure of the first person in activity
+---
 
--Act activity
--Post post activity
--Rest rest
--------------------------------------
--->
-Download the BCG_PCG.zip file: This file contains raw data for both phonocardiogram (PCG) and ballistocardiogram (BCG) signals stored in NumPy format. [for EMG go Here ](#emg-envelope-type-signals). You can find the **BCG_PCG.zip file** in the  repository.
-Unzip the file: Once downloaded, unzip the BCG_PCG.zip file on your system. This will extract the individual signal files.  
+## BCG, PCG, EEG, and EMG Database
+
+Download the **BCG_PCG.zip** file: This file contains raw data for both phonocardiogram (PCG) and ballistocardiogram (BCG) signals stored in NumPy format. [For EMG go here](#emg-envelope-type-signals). You can find the **BCG_PCG.zip** file in the repository.
+
+Unzip the file: Once downloaded, unzip the **BCG_PCG.zip** file on your system. This will extract the individual signal files.
   
 Understanding the Signal Files:
   
