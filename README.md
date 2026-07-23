@@ -1,4 +1,4 @@
-# MAYASproject: Biomedical Signal Repository
+# MAYAS Biomedical Signal Repository
 
 - 1) [Simultaneous BCG, PCG, EEG, and EMG Signal Study Database](#bcg-pcg-eeg-and-emg-database)
 - 2) [EMG Database](#emg-envelope-type-signals)
