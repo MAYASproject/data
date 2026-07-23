@@ -153,6 +153,11 @@ PCG signals were acquired from **10 healthy volunteers** (4 females, 6 males) wi
 * **Ethics Committee:** Approved by the Research Ethics Committee of the Autonomous University of Ciudad Juárez (UACJ) under approval number **CEI-2025-2-1658**.
 * **Compliance:** Conducted in accordance with the Declaration of Helsinki. Written informed consent was obtained from all participants prior to data collection.
 
-
+<br>
+<br>
+<br>
+for all data in MAYAS repository <br>
+Data Disclaimer  <br>
+This database provides access to a collection of data for research and analysis purposes. The authors make no warranties or representations of any kind, express or implied, about the accuracy, completeness, or fitness for any particular purpose of the data.
 
 
